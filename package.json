@@ -1,20 +1,14 @@
 {
-  "name": "coindashboardweb",
+  "name": "solana-bridge-telegram",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bridge between Telegram and Solana Pulse Tracker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "node-fetch": "^2.7.0",
-    "socket.io": "^4.8.3",
-    "telegram": "^2.26.22"
+    "gramjs": "^2.26.15",
+    "socket.io": "^4.7.5",
+    "input": "^1.0.1"
   }
 }
