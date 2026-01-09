@@ -6,7 +6,7 @@ const http = require("http");
 
 const API_ID = Number(process.env.API_ID);
 const API_HASH = process.env.API_HASH;
-const stringSession = process.env.StringSession;
+const stringSession = process.env.TELEGRAM_SESSION;
 
 const TARGET_CHANNELS = ["kolsignal", "degen_smartmoney", "bing_community_monitor", "solhousesignal", "nevadielegends", "PFsafeLaunch", "ReVoX_Academy", "dacostest", "pfultimate", "GemDynasty", "Bot_NovaX", "CCMFreeSignal", "KropClub", "ciphercallsfree", "solanagemsradar", "solana_whales_signal", "pingcalls", "gem_tools_calls", "SAVANNAHCALLS", "athenadefai", "Bigbabywhale", "SavannahSOL", "A3CallChan", "PEPE_Calls28", "gems_calls100x", "ai_dip_caller", "KingdomOfDegenCalls", "fttrenches_volsm", "loganpump", "bananaTrendingBot"];
 
@@ -50,4 +50,5 @@ const io = new Server(server, { cors: { origin: "*" } });
     console.log("Bridge escuchando...");
   });
 })();
+
 
