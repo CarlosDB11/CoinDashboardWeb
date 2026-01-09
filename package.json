@@ -1,13 +1,9 @@
 {
-  "name": "solana-bridge-telegram",
+  "name": "solana-pulse-bridge",
   "version": "1.0.0",
-  "description": "Bridge between Telegram and Solana Pulse Tracker",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
-    "gramjs": "^2.26.15",
+    "telegram": "^2.26.16",
     "socket.io": "^4.7.5",
     "input": "^1.0.1"
   }
